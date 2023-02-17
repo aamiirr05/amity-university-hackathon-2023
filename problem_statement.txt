@@ -1,0 +1,20 @@
+higher education directorate overseas 7 govt colleges and 26 aided colleges, each year more than 10000 graduate but there is no way for colleges and directed to keep track of the students
+objective:
+ web based application to track alumni of higher education directed
+features:
+1. registration for alumni members
+2. Verification and authentiscation of alumni by colleges or college authorities:
+
+3.updating alumni information
+4.searching for alumni by colleges based on criteria such as graduatioin year and subject or stream
+5.searching alumni by directed based on criteria such as such as college and graduation year
+
+6.sending messages and email to alumni members
+7.group chat and event creation on features
+8.security feature with a login required with each user.
+
+
+
+
+
+8.security feature with a login required with each user.:--     we will used sessions 
