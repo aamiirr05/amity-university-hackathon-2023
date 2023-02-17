@@ -1,0 +1,84 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap');
+
+
+
+.container {
+    width: 350px;
+    box-shadow: 0 0 10px 0;
+    margin: 100px auto;
+    padding: 50px 25px;
+    background-color: white;
+}
+
+.d1 {
+    margin: 60px auto;
+    position: relative;
+}
+
+.social {
+    height: 40px;
+    text-align: center;
+    margin: 30px;
+}
+
+    .social img {
+        height: 30px;
+        margin: 0 20px;
+        cursor: pointer;
+    }
+
+img {
+    position: relative;
+    top: 20px;
+}
+
+a {
+    margin: 2px;
+    color: #7e22ce;
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+/* :hovering */
+
+input:hover {
+    border: 2px solid #7e22ce;
+}
+
+button:hover {
+    background-color: #7e22ce;
+    color: wheat;
+}
+
+.i1:hover {
+    box-shadow: 0 0 10px 0 wheat;
+}
+
+.i2:hover {
+    box-shadow: 0 0 10px 0 wheat;
+}
+
+.i3:hover {
+    box-shadow: 0 0 10px 0 wheat;
+}
+
+a:hover {
+    color: #7e22ce;
+    text-decoration: underline #7e22ce;
+    border: 2px solid wheat;
+}
+
+a:hover {
+    color: #7e22ce;
+    text-decoration: underline #7e22ce;
+    border: 2px solid wheat;
+}
+
+span:onclick {
+    color: wheat;
+}

@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background: linear-gradient(to right, #39771d, #1bca24, #5ec576); */
+}
+
+.wrapper {
+    position: relative;
+    padding: 40px;
+    top: 30px;
+}
+
+.form-wrapper {
+    display: flex;
+    /* align-items: center; */
+    margin: 20px 10px;
+    padding: 20px 20px;
+    background: #ffff;
+    height: 270px;
+    width: 100%;
+    border-radius: 15px;
+    box-shadow: 3px 4px 15px rgba(0, 0, 0, 0.3);
+}
+
+.pi {
+    display: block;
+    font-size: 20px;
+    color: #1bca24;
+}
+
+.insert {
+    position: relative;
+    display: inline-block;
+    margin: 10px;
+    border-bottom: 0.5px solid #1bca24;
+    width: 40%;
+}
+
+.insert input {
+    /*width: 350px;*/
+    height: 30px;
+    font-size: 14px;
+    padding: 0 5px;
+    border: none;
+    outline: none;
+    background: transparent;
+}
+
+.insert label {
+    /* position: absolute; */
+    top: 50%;
+    left: 5px;
+    transform: translateY(-50%);
+    font-size: 15px;
+    
+}
+
+/* .name,   .fname, .mname,
+.mail, .num, .dob {
+    width: 40%;
+} */
+
+.btn {
+    position: relative;
+    top: 10px;
+    left: 45%;
+    width: 100px;
+    height: 40px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 20px;
+    background-color: #1bca24;
+    border: none;
+    outline: none;
+}
+
+.btn:hover {
+    background: #16a81d;
+    transition: .3s;
+}

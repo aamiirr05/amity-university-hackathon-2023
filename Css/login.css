@@ -1,0 +1,148 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: linear-gradient(to right, #39771d, #1bca24, #5ec576);
+}
+
+.wrapper {
+    position: relative;
+    height: 500px;
+    width: 400px;
+    background: #ffff;
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px #222b1d9c;
+}
+
+.form-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+}
+
+.close {
+    position: absolute;
+    font-size: 25px;
+    top: 20px;
+    left: 90%;
+    cursor: pointer;
+}
+
+    .close:hover {
+        color: #00a326;
+        transition: .3s;
+    }
+
+h2 {
+    font-size: 30px;
+    text-align: center;
+}
+
+.input {
+    position: relative;
+    margin: 30px 0;
+    border-bottom: 2px solid;
+}
+
+    .input_text {
+        width: 320px;
+        height: 40px;
+        font-size: 16px;
+        padding: 0 5px;
+        background: transparent;
+        border: none;
+        outline: none;
+    }
+
+    .input label {
+        position: absolute;
+        top: 50%;
+        left: 5px;
+        transform: translateY(-50%);
+        font-size: 15px;
+        pointer-events: none;
+    }
+
+   /* .input_text:focus ~ label,
+    .input_text:valid ~ label {
+        top: -2px;
+        transition: .5s;
+    }*/
+
+.eye {
+    position: absolute;
+    cursor: pointer;
+    margin: 11px 0;
+    font-size: 15px;
+}
+
+    .eye:hover {
+        color: #00a326;
+    }
+
+#open-eye {
+    display: none;
+}
+
+#close-eye {
+    /* display: block; */
+}
+
+.checkbox {
+    margin: -5px 0 15px 5px;
+}
+
+    .checkbox label {
+        font-size: 15px;
+    }
+
+        .checkbox label input {
+            accent-color: #00a326;
+        }
+
+
+.login_button {
+    position: relative;
+    width: 100%;
+    height: 40px;
+    font-size: 16px;
+    background: #00c42e;
+    border-radius: 10px;
+    font-size: 15px;
+    border: none;
+    outline: none;
+}
+
+    .login_button:hover {
+        background: #00a326;
+        transition: 0.3s;
+        transform: scale(1.01);
+    }
+/*
+.hidden {
+    display: none;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-color: rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(5px);
+    z-index: 5;
+}*/

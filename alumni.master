@@ -1,0 +1,45 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="alumni.master.cs" Inherits="alumni" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <link href="Css/alumni.css" rel="stylesheet" />
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+    
+    
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+        <div class="header">
+            <nav class="navbar">
+                <ul>
+                    <img src="images/th.jpeg" alt="" />
+                </ul>
+                <ul>
+                    <li><a href="update_alumni.aspx">Update Details</a></li>
+                    <li><a href="job.aspx">Recent Jobs/Internships</a></li>
+                    <li><a href="chat.aspx">Chat with Community</a></li>
+                    <li><a href="setting_alumni.aspx">Settings</a></li>
+                    <%--<button class="btn">
+                        <li>Logout</li>
+                    </button>--%>
+                    <asp:Button ID="Btn_Logout" CssClass="btn" OnClick="Btn_Logout_Click" runat="server" Text="LogOut" />
+                </ul>
+            </nav>
+        </div>
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+        <%--<div class="footer">
+            <div class="footer-content">
+                <h4>&copy; Copyright reserved on behalf of Web Wizards</h4>
+            </div>
+        </div>--%>
+    </div>
+    </form>
+</body>
+</html>

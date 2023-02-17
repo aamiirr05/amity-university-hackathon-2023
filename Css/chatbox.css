@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+
+.wrapper {
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+    overflow: hidden;
+    border-radius: 15px;
+}
+
+header {
+    background: #5ec576;
+    color: #ffff;
+    padding: 7px 20px;
+}
+
+.title {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.container {
+    display: flex;
+    background: #9e9e9e;
+    padding: 20px;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-content: stretch;
+}
+
+.left {
+    width: 350px;
+    color: #ffff;
+    background-color: #707070;
+    padding: 15px 20px;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+
+.member {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 0 15px 0;
+}
+
+h4 {
+    background: darkgrey;
+    padding: 0 8px;
+    border-radius: 50%;
+}
+
+.people p {
+    font-size: 15px;
+    font-weight: 500;
+    margin: 0 0 15px 0;
+    cursor: pointer;
+}
+
+.right {
+    background: #707070;
+    width: 100%;
+    /* padding: 10px; */
+    border-radius: 10px;
+}
+
+.chats {
+    min-height: 65vh;
+    padding: 20px;
+}
+
+.user-join {
+    font-size: .9rem;
+    color: grey;
+    background: #ffff;
+    border-radius: 50px;
+    width: max-content;
+    padding: 7px 20px;
+    margin: 0 auto;
+    margin-bottom: 15px;
+}
+
+.msg {
+    color: rgb(71, 71, 71);
+    background: #dad6d6;
+    padding: 5px 15px;
+    margin-bottom: 15px;
+    max-width: 400px;
+    border-radius: 10px 50px 50px 10px;
+}
+
+p {
+    font-size: .9rem;
+}
+
+.out {
+    margin-left: auto;
+    color: #ffff;
+    background: #108541;
+    border-radius: 50px 10px 10px 50px;
+    text-align: right;
+}
+
+.user-input {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: stretch;
+    padding: 20px;
+}
+
+input {
+    font-size: .9rem;
+    background: #ffff;
+    padding: 10px 20px;
+    border: none;
+    outline: none;
+    width: 100%;
+    border-radius: 50px 0 0 50px;
+}
+
+button {
+    font-size: .9rem;
+    font-weight: 500;
+    padding: 5px 15px;
+    border: none;
+    outline: none;
+    letter-spacing: 0.5px;
+    color: #ffff;
+    background: #5ec576;
+    border-radius: 0 50px 50px 0;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #108541;
+    transition: .5s;
+}
